@@ -82,7 +82,7 @@ void* startThread(void* args) {
         int char_sep = 1;
         char curr_char, last_char;
         int middle_ind=0;
-        // // ahhhhhhhhhhh!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
         for (int i=0; i<forward_len; i++){
                 curr_char = *(addr+i);
 
